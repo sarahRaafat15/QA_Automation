@@ -1,6 +1,6 @@
 Feature: Cars listing page
   
-	As a visitor of instamotion website
+	As a user of instamotion website
 	I want to see,filter and sort cars
 	So that I can select a car that fits my needs
 
@@ -19,5 +19,5 @@ Feature: Cars listing page
   Scenario: Sort cars by price descendingly
     Given I am in the cars listing page
     When  I sort cars by highest price first
-    Then all the results should be sorted descendingly according to price
+    Then  All the results should be sorted descendingly according to price
 

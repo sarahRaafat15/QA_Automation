@@ -6,7 +6,7 @@ Feature: Cars listing page
 
   Scenario: Filter cars by brand and model
     Given I am in the cars listing page
-    When  I filter cars by a specifci brand and model
+    When  I filter cars by a specific brand and model
     Then  The active filters should  include this brand and model
     And   All the related results should include this brand and model
 
